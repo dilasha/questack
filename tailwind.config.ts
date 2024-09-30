@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['Calistoga'],
+        mono: ['NotoSansMono'],
+      },
       colors: {
         primary: {
           DEFAULT: 'hsl(var(--primary))',

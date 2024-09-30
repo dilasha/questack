@@ -5,7 +5,7 @@ import { signin } from './actions';
 const SigninForm = () => {
   return (
     <div>
-      <h2 className="text-2xl mb-5">Login</h2>
+      <h2>Login</h2>
       <form action={signin} className="grid gap-4">
         <Input placeholder="Email" type="email" name="email" required />
         <Input
@@ -15,7 +15,7 @@ const SigninForm = () => {
           required
         />
         <div className="flex justify-end">
-          <Button variant="outline">Login</Button>
+          <Button variant="secondary">Login</Button>
         </div>
       </form>
     </div>
